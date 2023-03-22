@@ -1,16 +1,17 @@
+import "../assets/NavBar.css"
 const NavBar = () => {
     return (
         <nav>
             <div className="logo">
-                <h1>American Muscle</h1>
+                <p>American Muscle</p>
             </div>
             <div className="links">
                 <ul>
-                    <li><h4>Info</h4></li>
-                    <li><h4>Our Mission</h4></li>
-                    <li><h4>Catalog</h4></li>
-                    <li><h4>Rate us</h4></li>
-                    <li><h4>Contacts</h4></li>
+                    <li><p>Info</p></li>
+                    <li><p>Our Mission</p></li>
+                    <li><p>Catalog</p></li>
+                    <li><p>Rate us</p></li>
+                    <li><p>Contacts</p></li>
                 </ul>
             </div>
         </nav>

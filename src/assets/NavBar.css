@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #850000;
+    height: 60px;
+    max-width: 100%;
+}
+nav .logo{
+    padding: 0.2rem 1.2rem;
+}
+nav .logo p{
+  font-size: 2.4em;
+  color: #FFF6C3;
+  font-family: "Suez One", serif;
+}
+
+nav .links ul{
+    display: flex;
+    padding: 0 2rem;
+}
+nav .links ul li{
+    list-style-type: none;
+    padding: 1rem 0.8rem;
+    cursor: pointer;
+    margin: 0 0.5em;
+    background-color: #850000;
+    height: 60px;
+    transition: all 0.1s linear;
+    display: flex;
+    align-items: center;
+}
+nav .links ul li p{
+    color: white;
+    font-family: "Gabriela", serif;
+    font-size: 1.2em;
+    transition: all 0s linear;
+}
+
+nav .links ul li:hover, p:hover{
+    background-color: 	hsla(0, 100%, 30%, 0.5);
+    border-radius: 20%;
+    color: #FFDB89;
+}
+nav .links ul li p:hover{
+    color: #FFDB89;
+}
+@media only screen and (max-width: px){
+    nav .logo p{
+        font-size: 1.2em;
+    }
+    nav .links ul li p{
+        font-size: 0.6em;
+    }
+    nav .links ul li{
+        margin: 0 0.2em;
+    }
+}
