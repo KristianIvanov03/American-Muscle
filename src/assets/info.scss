@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 3rem;
+    .container{
+        width: 92%;
+        background-color: #FFDB89;
+        margin-top: 3%;
+        display: flex;
+        border-radius: 100px 50px 100px 50px;
+        height: 667px;
+        .text{
+            display: flex;
+            flex-direction: column;
+            .heading{
+                padding: 2rem 2rem;
+                align-self: flex-start;
+                h1{
+                    font-weight: 900;
+                    font-size: 56px;
+                }
+                
+            }
+            .paragraph{
+                padding: 1rem 4rem;
+                align-self: flex-start;
+                p{
+                    font-size: 26px;
+                    font-weight: 550;
+                    line-height: 3rem;
+                }
+            }
+        }
+
+        .image{
+            height: 100%;
+            img{
+                overflow: hidden;
+                height: 100%;
+                width: auto;
+                border-radius: 160px 50px 100px 160px;
+            }
+        }
+    }
+}
