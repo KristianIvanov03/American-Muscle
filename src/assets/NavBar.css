@@ -52,7 +52,7 @@ nav .links ul li:hover{
 nav .links ul li p:hover{
     color: #FFDB89;
 }
-@media only screen and (max-width: px){
+@media only screen and (max-width: 480px){
     nav .logo p{
         font-size: 1.2em;
     }

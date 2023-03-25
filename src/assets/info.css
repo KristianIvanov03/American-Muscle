@@ -48,4 +48,14 @@ section .container .image img {
   height: 100%;
   width: auto;
   border-radius: 160px 50px 100px 160px;
+}
+
+@media only screen and (max-width: 600px) {
+  section .container {
+    flex-direction: column;
+  }
+  section .container .image img {
+    width: 300px;
+    height: auto;
+  }
 }/*# sourceMappingURL=info.css.map */
