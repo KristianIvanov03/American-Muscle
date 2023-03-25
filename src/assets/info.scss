@@ -55,10 +55,28 @@ section{
     section{
         .container{
             flex-direction: column;
+            height: 780px;
+            border-radius: 75px 75px 100px 50px;
+            .text{
+                .heading{
+                    padding: 1rem 1rem;
+                    h1{
+                        font-size: 40px;
+                    }
+                }
+                .paragraph{
+                    padding: 0.5rem 2rem;
+                    p{
+                        font-size: 20px;
+                        line-height: 2rem;
+                    }
+                }
+            }
             .image{
                 img{
-                    width: 300px;
+                    width: 100%;
                     height: auto;
+                    border-radius: 100px 100px 50px 50px;
                 }
             }
         }

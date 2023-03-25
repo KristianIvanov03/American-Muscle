@@ -53,9 +53,25 @@ section .container .image img {
 @media only screen and (max-width: 600px) {
   section .container {
     flex-direction: column;
+    height: 780px;
+    border-radius: 75px 75px 100px 50px;
+  }
+  section .container .text .heading {
+    padding: 1rem 1rem;
+  }
+  section .container .text .heading h1 {
+    font-size: 40px;
+  }
+  section .container .text .paragraph {
+    padding: 0.5rem 2rem;
+  }
+  section .container .text .paragraph p {
+    font-size: 20px;
+    line-height: 2rem;
   }
   section .container .image img {
-    width: 300px;
+    width: 100%;
     height: auto;
+    border-radius: 100px 100px 50px 50px;
   }
 }/*# sourceMappingURL=info.css.map */
