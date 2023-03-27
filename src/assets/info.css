@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hanuman&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -17,28 +19,31 @@ section .container {
   margin-top: 3%;
   display: flex;
   border-radius: 100px 50px 100px 50px;
-  height: 667px;
+  height: 550px;
 }
 section .container .text {
   display: flex;
   flex-direction: column;
 }
 section .container .text .heading {
-  padding: 2rem 2rem;
+  padding: 3rem 5rem;
   align-self: flex-start;
 }
 section .container .text .heading h1 {
-  font-weight: 900;
+  font-weight: 400;
   font-size: 56px;
+  font-family: "Jockey One", sans-serif;
 }
 section .container .text .paragraph {
-  padding: 1rem 4rem;
-  align-self: flex-start;
+  padding: 1rem 5rem;
 }
 section .container .text .paragraph p {
   font-size: 26px;
   font-weight: 550;
   line-height: 3rem;
+  text-align: start;
+  font-family: "Hanuman", serif;
+  font-weight: 600;
 }
 section .container .image {
   height: 100%;
