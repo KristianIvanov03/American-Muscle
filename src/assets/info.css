@@ -58,11 +58,11 @@ section .container .image img {
 @media only screen and (max-width: 600px) {
   section .container {
     flex-direction: column;
-    height: 780px;
+    height: 777px;
     border-radius: 75px 75px 100px 50px;
   }
   section .container .text .heading {
-    padding: 1rem 1rem;
+    padding: 1rem 2.5rem;
   }
   section .container .text .heading h1 {
     font-size: 40px;
@@ -73,6 +73,7 @@ section .container .image img {
   section .container .text .paragraph p {
     font-size: 20px;
     line-height: 2rem;
+    text-align: center;
   }
   section .container .image img {
     width: 100%;

@@ -60,11 +60,11 @@ section{
     section{
         .container{
             flex-direction: column;
-            height: 780px;
+            height: 777px;
             border-radius: 75px 75px 100px 50px;
             .text{
                 .heading{
-                    padding: 1rem 1rem;
+                    padding: 1rem 2.5rem;
                     h1{
                         font-size: 40px;
                     }
@@ -74,6 +74,7 @@ section{
                     p{
                         font-size: 20px;
                         line-height: 2rem;
+                        text-align: center;
                     }
                 }
             }
