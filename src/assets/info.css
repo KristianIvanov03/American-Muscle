@@ -19,14 +19,14 @@ section .container {
   margin-top: 3%;
   display: flex;
   border-radius: 100px 50px 100px 50px;
-  height: 550px;
+  height: 570px;
 }
 section .container .text {
   display: flex;
   flex-direction: column;
 }
 section .container .text .heading {
-  padding: 3rem 5rem;
+  padding: 2.8rem 5rem;
   align-self: flex-start;
 }
 section .container .text .heading h1 {
@@ -35,7 +35,7 @@ section .container .text .heading h1 {
   font-family: "Jockey One", sans-serif;
 }
 section .container .text .paragraph {
-  padding: 1rem 5rem;
+  padding: 0.1rem 5rem;
 }
 section .container .text .paragraph p {
   font-size: 26px;
