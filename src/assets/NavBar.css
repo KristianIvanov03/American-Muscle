@@ -54,11 +54,16 @@ nav .links ul li p:hover{
     color: #FFDB89;
 }
 @media only screen and (max-width: 480px){
+    nav{
+        flex-direction: column;
+        height: 120px;
+    }
     nav .logo p{
-        font-size: 1.2em;
+        font-size: 2rem;
+        text-align: center;
     }
     nav .links ul li p{
-        font-size: 0.6em;
+        font-size: 1rem;
         letter-spacing: normal;
     }
     nav .links ul li{
