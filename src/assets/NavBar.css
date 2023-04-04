@@ -58,6 +58,10 @@ nav .links ul li p:hover{
         flex-direction: column;
         height: 120px;
     }
+    nav .logo{
+        width: 100%;
+        text-align: center;
+    }
     nav .logo p{
         font-size: 2rem;
         text-align: center;
@@ -69,17 +73,23 @@ nav .links ul li p:hover{
     nav .links ul li{
         margin: 0 0.2em;
     }
+    nav .links ul{
+        width: 100%;
+        padding:0;
+        align-self: flex-start;
+        justify-content: center;
+    }
 }
-@media only screen and (max-width: 380px){
+@media only screen and (max-width: 391px){
     nav .links ul li p{
         font-size: 0.8rem;
         letter-spacing: normal;
     }
     nav .links ul{
-        padding: 0;
+        width: 100%;
+        padding:0;
         align-self: flex-start;
+        justify-content: center;
     }
-    nav .links ul li{
-        margin: 0 0.4em;
-    }
+    
 }
