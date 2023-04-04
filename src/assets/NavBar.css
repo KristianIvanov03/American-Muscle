@@ -93,3 +93,24 @@ nav .links ul li p:hover{
     }
     
 }
+@media only screen and (max-width: 700px){
+    nav{
+        flex-direction: column;
+        height: 120px;
+    }
+    nav .logo p{
+        font-size: 2rem;
+        text-align: center;
+    }
+    nav .links ul li p{
+        font-size: 1.5rem;
+        letter-spacing: normal;
+    }
+    nav .links ul{
+        width: 100%;
+        padding:0;
+        align-self: flex-start;
+        justify-content: center;
+    }
+    
+}

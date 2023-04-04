@@ -11,7 +11,6 @@ section {
   display: flex;
   justify-content: center;
   text-align: center;
-  padding-bottom: 3rem;
 }
 section .container {
   width: 92%;
@@ -60,6 +59,7 @@ section .container .image img {
   section .container {
     flex-direction: column;
     height: 810px;
+    width: 90%;
     margin-bottom: 30%;
     border-radius: 75px 75px 100px 50px;
   }
@@ -76,6 +76,31 @@ section .container .image img {
     font-size: 20px;
     line-height: 2rem;
     text-align: center;
+  }
+  section .container .image img {
+    width: 100%;
+    height: auto;
+    border-radius: 100px 100px 50px 50px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  section {
+    height: auto;
+  }
+  section .container {
+    flex-direction: column;
+    height: auto;
+    border-radius: 75px 75px 50px 50px;
+  }
+  section .container .text .heading h1 {
+    font-size: 50px;
+  }
+  section .container .text .paragraph p {
+    font-size: 26px;
+    line-height: 3rem;
+  }
+  section .container .image {
+    margin-top: 50px;
   }
   section .container .image img {
     width: 100%;
